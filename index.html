@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site Responsivo</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home" class="home">
+        <h1>Sorrisos Saudáveis, Pacientes Felizes</h1>
+        <p>Em nosso Consultório Dentário, oferecemos atendimento de qualidade para toda a família. A sua saúde bucal
+            é nossa prioridade.</p>
+        <div class="botao-home">
+            <a href="#contato" class="botao">Agende sua consulta</a>
+        </div>
+    </main>
+
+    <section id="servicos" class="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Consultas e Limpezas</li>
+            <li>Ortodontia</li>
+            <li>Clareamento Dental</li>
+            <li>Restaurações e Obturações</li>
+            <li>Tratamentos de Canal</li>
+        </ul>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container-esquerda">
+            <h2>Entre em Contato</h2>
+        </div>
+
+        <div class="container-direita">
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
